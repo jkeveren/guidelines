@@ -24,9 +24,8 @@ Format
 - Markdown is nice for Github but I value reading in the terminal.
 
 File Extension
-- No file extension.
-- This is just a convention and perhaps it would be better to use .txt but I'm
-  just not excited by that right now.
+- Use ".txt". It's a plain text file.
+- Let the editor configure itself with indentation rules for the user.
 
 Line Wrap
 - Wrap at 80 characters
@@ -59,6 +58,9 @@ Sections
 - The doulble newline seperates it from the title or preceeding section.
 - A section may consist of multiple subsections but not just one
   subsection.
+- A section may have multiple forms of content, including text, lists and
+  subsections.
+- Subsections should generally be the last content in a section.
 
 Subsections
 - Consists of: a single newline, title then the content of the section.
@@ -69,8 +71,10 @@ Subsections
 
 Title
 - Capitalise with title case (wow!).
-- May have a short description or definition of the title, for example if it's
-  niche.
+- Should not be indented.
+
+Text Content
+- Should be indented one level more than the title. This puts text at the same effective indentation as lists and is pleasing to scan with the eyes.
 
 Lists
 - Lists should either be bullet points, numbered lists or key-value pairs.
