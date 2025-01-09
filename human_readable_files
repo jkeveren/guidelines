@@ -1,0 +1,8 @@
+Human readable files
+
+Files that are intended to be read by a human.
+
+Should terminate with a newline
+- Terminal optimisation. This ensures that when printing a file to stdout, it
+  leaves the cursor at the beginning of the next line for the prompt.
+
