@@ -8,7 +8,7 @@ and probably necessary in some cases. This is here to answer the question "How
 do I normally do this?".
 
 For guidelines on how to write files for this set of guidelines, see the file
-named "meta".
+named "meta.txt".
 
 
 Readme
@@ -55,6 +55,7 @@ Layout
 
 Sections
 - Consists of: double newline, title, newline, then the content of the section.
+- We are currently in the "Readme" section.
 - The doulble newline seperates it from the title or preceeding section.
 - A section may consist of multiple subsections but not just one
   subsection.
@@ -64,17 +65,19 @@ Sections
 
 Subsections
 - Consists of: a single newline, title then the content of the section.
+- We are currently in the "Subsections" subsection of the "Readme" section.
 - Subsections must not have subsubsections. If more depth is required, break the
   file into multiple files.
-- More depth in one file looks messy and can be a little more unpleasant to
-  read.
+- More depth in one file looks messy and can be structurally unpleasant to read.
 
 Title
 - Capitalise with title case (wow!).
 - Should not be indented.
 
 Text Content
-- Should be indented one level more than the title. This puts text at the same effective indentation as lists and is pleasing to scan with the eyes.
+  Text like this subsection should be indented one level more than the title.
+  This puts text at the same effective indentation as lists and is pleasing to
+  scan with the eyes.
 
 Lists
 - Lists should either be bullet points, numbered lists or key-value pairs.
