@@ -1,0 +1,8 @@
+Do not declare multiple variables in one statement like the following:
+int a, b;
+This is dumb because of the pointer issue:
+int *a, b;
+This makes a a pointer but not b. WHAT THE FUCK! The pointer should be part of the type. a is of type pointer to int.
+This is the source of the c and c++ pointer location convention mismatch!
+In C the convention is "int *a;" but in C++ it's "int* a;". HELL!
+Never doing the multi-declaration removes this issue and so the pointer can be part of the type, allowing us to simply use the C++ convention ("int* a;") which makes way more sense.
